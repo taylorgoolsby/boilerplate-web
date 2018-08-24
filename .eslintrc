@@ -1,0 +1,17 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "array-callback-return": "off",
+    "react/no-deprecated": "off"
+//    "graphql/template-strings": ["error", {
+//      "env": "apollo",
+//      "projectName": "web"
+//    }],
+//    "graphql/named-operations": ["warn"],
+//    "graphql/no-deprecated-fields": ["error"]
+  },
+  "plugins": [
+    "graphql"
+  ]
+}

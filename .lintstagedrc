@@ -1,0 +1,19 @@
+{
+  "linters": {
+    "*.{ts,tsx}": [
+      "./node_modules/.bin/tslint --fix",
+      "./node_modules/.bin/prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "./node_modules/.bin/eslint --max-warnings=0 --fix",
+      "./node_modules/.bin/prettier --write",
+      "git add"
+    ],
+    "*.graphql": [
+      "./node_modules/.bin/eslint --max-warnings=0 --fix",
+      "git add"
+    ]
+  },
+  "ignore": []
+}
